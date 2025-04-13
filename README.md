@@ -1,6 +1,6 @@
 # Translation Widget
 
-A simple, drop-in solution to translate any webpage content using Google's Gemini 1.5 Pro API. Add a single line of code to your website and give your visitors the ability to view your content in their preferred language.
+A simple, drop-in solution to translate any webpage content using Google's Gemini API. Add a single line of code to your website and give your visitors the ability to view your content in their preferred language.
 
 ## Features
 
@@ -8,7 +8,7 @@ A simple, drop-in solution to translate any webpage content using Google's Gemin
 - 🌐 Support for numerous languages via ISO language codes
 - ⚡ Real-time translation without page reload
 - 🎛️ Automatic language selector widget
-- 🧠 Powered by Google's Gemini 1.5 Pro AI model
+- 🧠 Powered by Google's Gemini AI model
 
 ## How It Works
 
@@ -23,7 +23,7 @@ The Translation Widget consists of two main components:
 2. **Backend Script (`translate.php`)**:
    - Receives text from the frontend
    - Constructs a prompt for the Gemini API
-   - Handles communication with Google's Gemini 1.5 Pro API
+   - Handles communication with Google's Gemini API
    - Returns translated content back to the frontend
 
 ## Setup Instructions
