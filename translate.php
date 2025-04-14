@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
 // Replace with your valid Gemini API key
-$apiKey = "AIzaSyCJSHHkxPXivCudZmrG_qvazCctV3BNTyU";
+$apiKey = "Your_Api_Key";
 
 // Get the JSON input from the request body
 $input = json_decode(file_get_contents("php://input"), true);
